@@ -5,66 +5,77 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Jessica Cameron</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
-<header>
-<nav>
-    <a href="">About Me</a>
-    <a href="">Contact</a>
-</nav>
-</header>
-<main>
-    <section>
-        <div>
-            <img src="" alt="Profile pic here">
+    <header>
+        <div class="mobile-header">
+            <img src="img/icon-cat.png" alt="Cat icon" class="icon">
+            <!-- <a target="_blank" href="https://icons8.com/icon/46394/cat">Cat</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+            <p>Portfolio - Jess Cameron</p>
+            <button class="hamburger-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="hamburger-icon">
+					<path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+				</svg>
+            </button>
         </div>
-        <article>
-            <h1>
-                Hi, my name is
-            </h1>
-            <h2>
-                Jessica Cameron
-            </h2>
-            <h1>
-                A budding technology enthusiast
-            </h1>
-        </article>
-    </section>
-    <section>
-        <article>
-            <h1>
-                Find me on <a href="">LinkedIn</a> and <a href="">GitHub</a>
-            </h1>
-        </article>
-    </section>
-</main>
-<section>
-    <article>
-        <h2>
-            _____________________________________________________________________________________________
-        </h2>
-        <h1>
-            Portfolio
-        </h1>
-    </article>
+        <nav class="desktop-nav">
+			<ul>
+				<li>
+					<a href="">About Me</a>
+				</li>
+				<li>
+					<a href="">Contact Me</a>
+				</li>
+			</ul>
+		</nav>
+		<nav class="mobile-nav display-none">
+			<ul>
+				<li>
+					<a href="">About Me</a>
+				</li>
+				<li>
+					<a href="">Contact Me</a>
+				</li>
+			</ul>
+		</nav>
+    </header>
+            <div class="hero-bg">
+                <section id="hero-text">
+                    <h1>Hi, my name is</h1>
+                    <h2><span class="hero-accent">Jessica Cameron</span></h2>
+                    <h3>A budding technology enthusiast</h3>                    
+                    <h4>Find me on <a href="">LinkedIn</a> and <a href="">GitHub</a></h4>
+            </section>
+            </div>
+    </header>
+<section id="heading-portfolio">
+    <h1>
+        Portfolio
+    </h1>
 </section>
-<section>
-    <article>
-        <h2>
-            HTML / CSS
-        </h2>
-    </article>
-    <article>
-        <h2>
-            Python
-        </h2>
-    </article>
-    <article>
-        <h2>
-            Next project
-        </h2>
-    </article>
+    <section id="portfolio">
+        <article class="html-css">
+            <h2>HTML and CSS</h2>
+            <p>
+                Cat ipsum dolor sit amet, cough hairball, eat toilet paper intently stare at the same spot for caticus cuteicus. Cat cat moo moo lick ears lick paws. Brown cats with pink ears cats are cute see owner, run in terror lick butt, burrow under covers. Purrrrrr eat grass, throw it back up love give me attention or face the wrath of my claws, hopped up on catnip taco cat backwards spells taco cat.
+            </p>
+            <a href="#" class="btn-secondary">See More</a>
+        </article>
+        <article class="python">
+            <h2>Python</h2>
+            <p>
+                Cat ipsum dolor sit amet, hide at bottom of staircase to trip human and sometimes switches in french and say "miaou" just because well why not so pushed the mug off the table. Stretch one of these days i'm going to get that red dot, just you wait and see . Hey! you there, with the hands mice bawl under human beds chew on cable for human is behind a closed door, emergency! abandoned! meeooowwww!!! yet open the door, let me out, let me out, let me-out, let me-aow, let meaow, meaow!
+            </p>
+            <a href="#" class="btn-secondary">See More</a>
+        </article>
+        <article class="next-project">
+            <h2>Next project</h2>
+            <p>
+                Cat ipsum dolor sit amet, find a way to fit in tiny box cat mojo , inspect anything brought into the house, but scream for no reason at 4 am. Push your water glass on the floor yowling nonstop the whole night or crash against wall but walk away like nothing happened but sleep on keyboard, for nyaa nyaa lie on your belly and purr when you are asleep. Thinking about you i'm joking it's food always food.
+            </p>
+            <a href="#" class="btn-secondary">See More</a>
+        </article>
 </section>
 <footer>
     <small>Website made with ❤️ by <a href="linkedin">Jess</a></small>
