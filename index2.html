@@ -5,32 +5,65 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Jessica Cameron</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
-<header>
-<nav>
-    <a href="">About Me</a>
-    <a href="">Contact</a>
-</nav>
+    <header>
+        <div class="mobile-header">
+            <img src="img/icon-cat.png" alt="Cat icon" class="icon">
+            <!-- <a target="_blank" href="https://icons8.com/icon/46394/cat">Cat</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+            <p>Portfolio - Jess Cameron</p>
+            <button class="hamburger-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="hamburger-icon">
+					<path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+				</svg>
+            </button>
+        </div>
+        <nav class="desktop-nav">
+			<ul>
+				<li>
+					<a href="">About Me</a>
+				</li>
+				<li>
+					<a href="">Contact Me</a>
+				</li>
+			</ul>
+		</nav>
+		<nav class="mobile-nav display-none">
+			<ul>
+				<li>
+					<a href="">About Me</a>
+				</li>
+				<li>
+					<a href="">Contact Me</a>
+				</li>
+			</ul>
+		</nav>
+    </header>
 </header>
 <main>
-    <section>
-    <article>
-            <h1>
-                About Me
-            </h1>
-            <p>
-                Welcome to my page! I am a coding enthusiast with an interest in cyber security and HR systems. 
-            <p>
-                I have worked for Rio Tinto since 2011 across a variety of roles. Starting out in HR systems and HR generalist advisory, I have worked in Brisbane and on site at our New Zealand and Gladstone Aluminium Smelters.
-                Seeking to move back into a systems capacity, I accepted a Graduate IT role in 2018 where I dabbled in functional SAP configuration, supported an LMS project implementation and participated in a SoX audit. I continued my IT journey with roles in Portfolio Management & Governance and Transformation, whilst also completing a Post Graduate Certificate in IT.
-            </p>
-            </p>
-                On a personal note, I live with my fiancé, young son and two cats. I am a creative soul who loves creature comforts, good food and wine and volunteering in my local community.
-            </p>
+    <section id="about-me">
+        <div id="about">
+            <img src="img/profile-bg.jpg" alt="Profile photo" class="profile-bg">
+            <article class="about-script">
+                <h1>
+                    About Me
+                </h1> 
+                <p>
+                    Welcome to my page! I am a coding enthusiast with an interest in cyber security and HR systems. 
+                <p>
+                    I have worked for Rio Tinto since 2011 across a variety of roles. Starting out in HR systems and HR generalist advisory, I have worked in Brisbane and on site at our New Zealand and Gladstone Aluminium Smelters.
+                    Seeking to move back into a systems capacity, I accepted a Graduate IT role in 2018 where I dabbled in functional SAP configuration, supported an LMS project implementation and participated in a SoX audit. I continued my IT journey with roles in Portfolio Management & Governance and Transformation, whilst also completing a Post Graduate Certificate in IT.
+                </p>
+                </p>
+                    On a personal note, I live with my fiancé, young son and two cats. I am a creative soul who loves creature comforts, good food and wine and volunteering in my local community.
+                </p>
+        </article>  
+
+        </div>
+        
+        
     </section>
-        </article>
     </main>
 <footer>
     <small>Website made with ❤️ by <a href="linkedin">Jess</a></small>

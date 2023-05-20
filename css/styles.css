@@ -1,5 +1,6 @@
 /* Base HTML Styles */
 
+
 :root {
 	--pink: #f38fb1;
 	--yellow: #f4d040;
@@ -7,6 +8,8 @@
 	--blue: #5dade2;
 	--black: #111111;
 	--gray: #c3c3c3;
+	--sky-blue: #ADD8E6;
+	--steel-blue: #4682B4;
 }
 
 /* CSS Reset */
@@ -56,6 +59,9 @@ input, select, textarea {
 	.mobile-nav {
 		display: none;
 	}
+	.hamburger-icon {
+		display: none;
+	}
 }
 
 .mobile-nav a {
@@ -72,12 +78,6 @@ input, select, textarea {
 		align-items: center;
 	}
 
-
-	header a {
-		text-decoration: none;
-		color:  var(--black);
-	}
-
 	nav {
 		display: inline-block;
 	}
@@ -89,13 +89,10 @@ input, select, textarea {
 	}
 }
 
-.hamburger-icon {
-    display: none;
-}
-
 .icon, .hamburger-icon {
 height: 50px;
-background-color: white;
+border: none;
+background: none;
 }
 
 .mobile-header {
@@ -108,8 +105,10 @@ justify-content: space-between;
 
  /* Hero Styles */
 
+
 .hero-bg {
     background-image: url("../img/header-bgd.jpg");
+	background-image: linear-gradient(to right, green, white);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -161,17 +160,17 @@ border: solid white 3px;
 }
 
 #portfolio .html-css {
-	background-color: var(--gray);
+	background-color: var(--sky-blue);
 	border: solid white 3px;
 }
 
 #portfolio .python {
-	background-color: var(--gray);
+	background-color: var(--sky-blue);
 	border: solid white 3px;
 }
 
 #portfolio .next-project {
-	background-color: var(--gray);
+	background-color: var(--sky-blue);
 	border: solid white 3px;
 }
 
@@ -222,4 +221,28 @@ footer {
 
 .display-none {
 	display: none;
+}
+
+
+/* About Me Page */
+
+#about-me {
+background-color: lightgrey;
+padding: 24px;
+border: 5px
+}
+
+.profile-bg {
+    background-image: url("../img/profile-bg.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+	border-radius: 150px;
+}
+
+#about {
+	display: flex;	
+}
+
+.about-script {
+	padding: 50px;
 }
