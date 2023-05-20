@@ -1,5 +1,8 @@
 /* Base HTML Styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Libre+Franklin&family=Lora:ital,wght@0,400;0,700;1,400&family=Manrope:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
 :root {
 	--pink: #f38fb1;
@@ -17,7 +20,10 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
+	font-family: 'Libre Franklin', sans-serif;
+	text-decoration: none;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -28,7 +34,8 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 ol, ul {
     list-style: none;
-}
+	}
+
 
 img {
     max-width: 100%;
@@ -46,7 +53,7 @@ input, select, textarea {
 	padding: 8px;
 }
 
-/* Header */
+/* Nav */
 
 .desktop-nav {
 	display: none;
@@ -55,11 +62,10 @@ input, select, textarea {
 @media (min-width: 768px){
 	.desktop-nav {
 		display: block;
-	}
+		padding-right: 50px;
+		text-decoration: none;
+		}
 	.mobile-nav {
-		display: none;
-	}
-	.hamburger-icon {
 		display: none;
 	}
 }
@@ -68,14 +74,25 @@ input, select, textarea {
 	text-decoration: none;
 	color: var(--black);
 	display: block;
-	padding: 4px 16px;
+	padding: 4px, 16px;
 }
+
+header button {
+	all: unset;
+}
+
 
 @media (min-width: 768px){
 	header {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		text-decoration: none;
+	}
+
+	header a {
+		text-decoration: none;
+		color: var(--black);
 	}
 
 	nav {
@@ -85,15 +102,27 @@ input, select, textarea {
 	header nav ul {
 		display: flex;
 		gap: 25px;
-		margin-right: 16px
+		margin-right: 16px;
+		text-decoration: none;
+	}
+
+	.hamburger-icon {
+		display: none;
 	}
 }
 
-.icon, .hamburger-icon {
-height: 50px;
-border: none;
-background: none;
-}
+.hamburger-icon {
+	height: 50px;
+	border: none;
+	background: none;
+	color: black;
+	}
+
+.icon {
+		height: 50px;
+		border: none;
+		background: none;
+		}
 
 .mobile-header {
 padding: 16px;
@@ -103,34 +132,53 @@ justify-content: space-between;
 }
 
 
+/* Header */
+
+header a {
+	text-decoration: none;
+	color:  var(--green);
+	font-size: large;
+	font-weight: bold;
+	padding: 25px;
+}
+
+
+
+
  /* Hero Styles */
 
 
 .hero-bg {
-    background-image: url("../img/header-bgd.jpg");
-	background-image: linear-gradient(to right, green, white);
+    background-image: linear-gradient(to left, rgba(0, 128, 21, 0.567), rgba(255, 255, 255, 0.39)), url("../img/header-bgd.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    height: 450px;
+	width: 100%
 }
 
-#hero-text {
-    position: absolute;
-    top: 300px;
-    right: 150px;
-    width: 350px;
-    height: 100px;
-}
 
+.hero-text {
+	display: flex;
+	justify-content: left;
+	font-size: 5rem;
+	font-family: 'Ultra', serif;
+	font-weight: 500;
+	padding-top: 150px;
+	padding-left: 50px;
+	}
+
+.hero-text2 {
+	margin-left: 100px;
+	display: flex;
+	justify-content: left;
+	font-family: 'Allura', cursive;
+	font-size: 2rem;
+}
 
 
 /* Portfolio projects */
 
-
-#portfolio article {
-	padding: 32px 16px;
-}
 
 @media (min-width: 768px){
 	#portfolio {
@@ -138,21 +186,21 @@ justify-content: space-between;
 	}
 
 	#portfolio article {
-		padding: 56px;
+		padding: 50px;
 	}
 }
 
 #heading-portfolio {
-background-color: gray;
+background-color: var(--gray);
 text-align: center;
-padding: 25px;
-border: solid white 3px;
-
+padding: 15px;
+border-top: solid white 5px;
 }
 
 #portfolio article h2 {
 	margin-bottom: 16px;
 	color: white;
+	height: 20px;
 }
 
 #portfolio article p {
@@ -160,18 +208,18 @@ border: solid white 3px;
 }
 
 #portfolio .html-css {
-	background-color: var(--sky-blue);
-	border: solid white 3px;
+	background-image: linear-gradient(to bottom, rgba(0, 128, 21, 0.409), rgba(255, 255, 255, 0.311));
+	border: solid white 5px;
 }
 
 #portfolio .python {
-	background-color: var(--sky-blue);
-	border: solid white 3px;
+	background-image: linear-gradient(to bottom, rgba(0, 128, 21, 0.409), rgba(255, 255, 255, 0.311));
+	border: solid white 5px;
 }
 
 #portfolio .next-project {
-	background-color: var(--sky-blue);
-	border: solid white 3px;
+	background-image: linear-gradient(to bottom, rgba(0, 128, 21, 0.409), rgba(255, 255, 255, 0.311));
+	border: solid white 5px;
 }
 
 
@@ -181,6 +229,7 @@ border: solid white 3px;
 
 #contact {
 	padding: 48px 16px;
+	background-color: rgba(128, 128, 128, 0.588);
 }
 
 #contact input, #contact select {
@@ -204,8 +253,8 @@ border: solid white 3px;
 }
 
 #contact input[type="submit"] {
-	background-color: var(--pink);
-	border: 0;
+	background-color: var(--green);
+	border-color: black;
 	margin-top: 8px;
 	cursor: pointer;
 }
@@ -213,7 +262,7 @@ border: solid white 3px;
 /* Footer */
 
 footer {
-	padding: 16px;
+	padding: none;
 	text-align: center;
 }
 
@@ -229,7 +278,9 @@ footer {
 #about-me {
 background-color: lightgrey;
 padding: 24px;
-border: 5px
+border: 5px;
+line-height: 1.7;
+word-spacing: 4px;
 }
 
 .profile-bg {
@@ -237,12 +288,10 @@ border: 5px
     background-repeat: no-repeat;
     height: 300px;
 	border-radius: 150px;
+	margin-left: 650px;
 }
 
-#about {
-	display: flex;	
-}
-
-.about-script {
-	padding: 50px;
+.about-script p {
+	margin-bottom: 25px;
+	margin-top: 20px;
 }
