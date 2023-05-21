@@ -237,6 +237,26 @@ border-top: solid white 5px;
 	border: solid white 5px;
 }
 
+.btn-secondary:hover {
+	background-color: green;
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	padding: 7px;
+	border-radius: 8px;
+	transition-duration: 0.7s;
+
+}
+
+.btn-secondary {
+	background-color: gray;
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	padding: 7px;
+	border-radius: 8px;
+}
+
 
 
 
