@@ -55,13 +55,13 @@ I included hover styles on the front page buttons in the portfolio area. I used 
 
 ![Desktop view, contact page, top of screen](screenshots/desktop_contacttop.png)
 
-#### {{ desktop_contactbottom }}
+#### desktop_contactbottom
 
 ![Desktop view, contact page, bottom of screen](screenshots/desktop_contactbottom.png)
 
-#### {{ mobile_maintop }}
+#### mobile_maintop
 
-![Mobile view, main page, top of screen](screenshots/mobile_maintop.png)
+![Mobile view, main page, top of screen] (screenshots/mobile_maintop.png)
 
 #### mobile_mainmid
 
