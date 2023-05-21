@@ -61,7 +61,7 @@ I included hover styles on the front page buttons in the portfolio area. I used 
 
 #### mobile_maintop
 
-![Mobile view, main page, top of screen] (screenshots/mobile_maintop.png)
+![Mobile view, main page, top of screen](screenshots/mobile_maintop.png)
 
 #### mobile_mainmid
 
