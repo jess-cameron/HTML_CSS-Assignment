@@ -21,11 +21,14 @@
         </div>
         <nav class="desktop-nav">
 			<ul>
-				<li>
-					<a href="index2.html">About Me</a>
+                <li>
+					<a href="index.html">HOME</a>
 				</li>
 				<li>
-					<a href="index3.html">Contact Me</a>
+					<a href="index2.html">ABOUT</a>
+				</li>
+				<li>
+					<a href="index3.html">CONTACT</a>
 				</li>
 			</ul>
 		</nav>
@@ -33,19 +36,32 @@
 <main>
     <section id="contact">
 		<h2>Get in touch</h2>
-		<form>
-			<label for="your-name">Your Name</label>
-			<input type="text" id="your-name">
-			<label for="city">Your Query</label>
-			<select name="city-selection" id="city">
-				<option value="General Contact">General Contact</option>
-				<option value="Teach me your mad skillz">Teach me your mad skillz</option>
-				<option value="Just here for the lols">Just here for the lols</option>
+<form
+    action="https://formspree.io/f/mzbqqpvk"
+    method="POST"
+    >
+    <label>
+        Your name:
+        <input type="name" name="name">
+        </label>
+    <label>
+    Your email:
+    <input type="email" name="email">
+    </label>
+    <label>
+    Your message:
+    <textarea name="message" id="message" rows="10"></textarea>
+    </label>
+    <!-- your other form fields go here -->
+    <label for="reason">Reason for contact</label>
+			<select name="Reason for contact" id="reason">
+                <option value="Choose an option">Choose an option</option>
+				<option value="Let's collaborate!">Let's collaborate!</option>
+				<option value="Let's have lunch">Let's have lunch</option>
+				<option value="Other">Other</option>
 			</select>
-			<label for="message">Your Message</label>
-			<textarea name="message-text" id="message" rows="10"></textarea>
-			<input type="submit" value="Submit">
-		</form>
+    <button type="submit">Send</button>
+</form>
 	</section>
     </main>
     <footer>                 

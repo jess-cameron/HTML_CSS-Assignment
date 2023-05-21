@@ -1,6 +1,9 @@
 /* Base HTML Styles */
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Libre+Franklin&family=Lora:ital,wght@0,400;0,700;1,400&family=Manrope:wght@300;500&display=swap');
+/* *{
+    border: 2px solid red;
+} */
+
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
@@ -161,7 +164,7 @@ header a {
 .hero-text {
 	display: flex;
 	justify-content: left;
-	font-size: 5rem;
+	font-size: 4rem;
 	font-family: 'Ultra', serif;
 	font-weight: 500;
 	padding-top: 150px;
@@ -288,10 +291,21 @@ word-spacing: 4px;
     background-repeat: no-repeat;
     height: 300px;
 	border-radius: 150px;
-	margin-left: 650px;
+	margin-left: 50px;
+}
+
+@media (min-width: 768px){
+	.profile-bg {
+		display: flex;
+		margin-left: 400px;
+		background-repeat: no-repeat;
+	}
 }
 
 .about-script p {
 	margin-bottom: 25px;
 	margin-top: 20px;
+	font-family: 'Ultra', sans-serif;
+	font-size: 1.1rem;
+	padding: 15px;
 }
