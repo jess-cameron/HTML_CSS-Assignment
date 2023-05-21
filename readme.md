@@ -26,3 +26,72 @@ I included hover styles on the front page buttons in the portfolio area. I used 
 - [ ] Include JavaScript to add some dynamic elements to your site. (Extratricky!)
 
 ### Screenshots
+
+#### initial_wireframe
+
+![Initial wireframe design ](screenshots/initial_wireframe.png )
+
+#### desktop_maintop
+
+![Desktop view, main page, top of screen](screenshots/desktop_maintop.png )
+
+#### hover_button
+
+![Desktop view, main page, top of screen, hover button](screenshots/hover_button.png)
+
+#### desktop_mainbottom
+
+![Desktop view, main page, bottom of screen](screenshots/desktop_mainbottom.png)
+
+#### desktop_abouttop
+
+![Desktop view, about me page, top of screen](screenshots/desktop_abouttop.png)
+
+#### desktop_aboutbottom
+
+![Desktop view, about me page, bottom of screen](screenshots/desktop_aboutbottom.png)
+
+#### desktop_contacttop
+
+![Desktop view, contact page, top of screen](screenshots/desktop_contacttop.png)
+
+#### {{ desktop_contactbottom }}
+
+![Desktop view, contact page, bottom of screen](screenshots/desktop_contactbottom.png)
+
+#### {{ mobile_maintop }}
+
+![Mobile view, main page, top of screen](screenshots/mobile_maintop.png)
+
+#### mobile_mainmid
+
+![ Mobile view, main page, middle of screen](screenshots/mobile_mainmid.png)
+
+#### mobile_mainbottom
+
+![ Mobile view, main page, bottom of screen ](screenshots/mobile_mainbottom.png)
+
+#### mobile_abouttop
+
+![ Mobile view, about page, top of screen ](screenshots/mobile_abouttop.png)
+
+####  mobile_aboutmid
+
+![ Mobile view, about page, middle of screen ]( screenshots/mobile_aboutmid.png )
+
+#### mobile_aboutbottom
+
+![ Mobile view, about page, bottom of screen ]( screenshots/mobile_aboutbottom.png )
+
+#### mobile_contacttop 
+
+![ Mobile view, contact page, top of screen ]( screenshots/mobile_contacttop.png )
+
+#### mobile_contactmid
+
+![ Mobile view, contact page, middle of screen ]( screenshots/mobile_contactmid.png  )
+
+#### mobile_contactbottom
+
+![ Mobile view, contact page, bottom of screen ]( screenshots/mobile_contactbottom.png )
+
