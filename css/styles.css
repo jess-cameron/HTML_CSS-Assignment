@@ -156,22 +156,6 @@ header a {
 	width: 100%;
 }
 
-.profile-bg {
-    background-image: url("../img/profile-bg.jpg");
-    background-repeat: no-repeat;
-    height: 300px;
-	border-radius: 150px;
-	margin-left: 20px;
-}
-
-@media (min-width: 768px){
-	.profile-bg {
-		display: flex;
-		margin-left: 450px;
-		background-repeat: no-repeat;
-	}
-}
-
 
 .hero-text {
 	display: flex;
@@ -319,11 +303,39 @@ line-height: 1.7;
 word-spacing: 4px;
 }
 
-
 .about-script p {
 	margin-bottom: 25px;
 	margin-top: 20px;
 	font-family: 'Ultra', sans-serif;
 	font-size: 1.1rem;
 	padding: 15px;
+}
+
+@media (min-width: 768px) {
+	.about-script p {
+	display: flex;
+	width: 100%;
+	height: 35%;
+	padding-left: 400px;
+	/* margin-left: 750px; */
+	background-repeat: no-repeat;
+	}
+
+.profile-bg {
+    background-image: url("../img/profile-bg.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+	border-radius: 150px;
+	margin-left: 20px;
+}
+
+@media (min-width: 768px){
+	.profile-bg {
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	margin-top: 75px;
+	background-repeat: no-repeat;
+	}
+}
 }
